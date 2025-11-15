@@ -1,0 +1,58 @@
+# .NET Core
+bin/
+obj/
+*.user
+*.suo
+*.cache
+*.dll
+*.exe
+*.pdb
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa]rm/
+[Aa]rm64/
+bld/
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio
+.vs/
+*.csproj.user
+*.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Rider
+.idea/
+*.sln.iml
+
+# User-specific files
+appsettings.Development.json
+appsettings.Local.json
+*.wav
+*.mp3
+
+# Azure credentials (never commit these!)
+**/appsettings.json
+!**/appsettings.json
+
+# But we want to keep the template
+# So we're using a specific pattern below
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# Audio output files
+output.wav
+*.wav
+*.mp3
